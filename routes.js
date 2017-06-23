@@ -14,7 +14,8 @@ let endpoints = [
     'projects',
     'students',
     'updates',
-    'oauth'
+    'oauth',
+    'oauth-signature'
 ];
 
 _.forEach(versions, function(version) {

@@ -14,13 +14,12 @@ var AnswerSchema = new Schema(
 		required: true
 	},
 	answer: {
-		type: String,
-		required: true
+		type: String
 	},
 	correct_answer: {
 		type: String,
 		required:true
-	}
+	},
 	image_url: {
 		type: String
 	}
